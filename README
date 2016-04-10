@@ -1,0 +1,6 @@
+O instalador de fontes feito em c foi feito para uso pessoal na instalação de fontes em usuários não privilegiados em um domínio Windows. Está sendo disponibilizado para uso e estudo próprio.
+
+1° Na execução do software é solicitada a inserção do nome da fonte, que será atribuido a variável $nome.
+2° Na execução do software é solicitada a inserção do nome da fonte + a extensão (.ttf)/(.otf), o qual valor será atribuido a variável $nome.
+3° O software criará um valor de cadeia de caracteres no registro do Windows com o nome da fonte, tipo REG_SZ, e o nome, mais a extensão da fonte como dados (fonte.ttf).
+A fonte está pronta para uso. :)
