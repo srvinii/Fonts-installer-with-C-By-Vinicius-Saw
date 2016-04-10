@@ -10,7 +10,7 @@ int main(){
 	
 	char fonte[30];
 	printf("Digite exatamente o nome da fonte + a extensao:\n");
-	scanf("%30s", fonte);
+	scanf("%30s",&fonte);
 	
 	RegOpenKey(HKEY_LOCAL_MACHINE,"SOFTWARE\\Microsoft\\WINDOWS NT\\CurrentVersion\\Fonts",&chave);
 	RegSetValueEx(chave,(nome),0,REG_SZ,(LPBYTE)fonte,strlen(fonte));
