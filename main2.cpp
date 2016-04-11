@@ -22,7 +22,7 @@ void programa(void){
 	//RegCreateKey(HKEY_CURRENT_USER,"\\AppEvents\\Teste\\SubConjunto01",&chave);
 	RegCloseKey(chave);
 	
-	printf("\n\n\n\nChave %d criada com sucesso no registro!", fonte);
+	printf("\n\n\n\n Chave %d criada com sucesso no registro!", fonte);
 
 }
 int main(){
